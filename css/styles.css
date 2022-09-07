@@ -29,7 +29,7 @@ p {
   font-weight: 400;
   margin: 0 auto 1rem auto;
 }
-p > a {
+p a {
   color: inherit;
 }
 .search-bar {
