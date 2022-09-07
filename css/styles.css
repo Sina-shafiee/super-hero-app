@@ -19,13 +19,14 @@ body {
 }
 h1 {
   font-weight: 4rem;
-  font-weight: 200;
+  font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 3rem;
   text-align: center;
 }
 p {
   width: 80%;
+  font-weight: 400;
   margin: 0 auto 1rem auto;
 }
 p > a {
@@ -90,7 +91,7 @@ input {
 }
 .stats {
   font-family: sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1rem;
   width: 80%;
   margin: 0 auto;
