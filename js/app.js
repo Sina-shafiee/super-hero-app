@@ -26,7 +26,6 @@ const handleNewData = (id) => {
   fetch(`${BASE_URL}/${id}`)
     .then((response) => response.json())
     .then((json) => {
-      console.log(json);
       statsEl.innerHTML = postNewData(json);
     });
 };

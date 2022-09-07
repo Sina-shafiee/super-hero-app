@@ -13,16 +13,19 @@
     <section class="container">
       <h1>⭐ super hero app</h1>
       <p>
-        You can search For Super Heroes, 
-        Just Type their Names like "Batman",
+        You can search For Super Heroes, Just Type their Names like "Batman",
         "Thanos", "Superman" etc..
       </p>
       <p>
         Check Hero names full list
-        <a href="https://www.superheroapi.com/ids.html" target="_blank">Here!</a>
-          </a
+        <a href="https://www.superheroapi.com/ids.html" target="_blank"
+          >Here!</a
         >
+        <p style="display: block; text-align: left">
+          or simply press the button <a href="#refresh">below</a>
+        </p>
       </p>
+
       <section class="search-bar">
         <input type="text" id="search-input" placeholder="Search Here" />
         <button id="search-btn">
@@ -61,11 +64,12 @@
           <span id="hero-hair"></span>
         </section>
       </section>
-      <p>Power Stats: </p>
+      <p>Power Stats:</p>
       <section id="stats"></section>
 
-      <button id="refresh">Get Random New super hero :p</button>
+      <button id="refresh">Get Random New super hero</button>
     </section>
+
     <script src="./js/app.js"></script>
   </body>
 </html>
