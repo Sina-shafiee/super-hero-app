@@ -83,6 +83,9 @@ const postNewData = (json) => {
 const removeData = (elements) => {
   heroImg.setAttribute("src", "./images/404.svg");
   heroNameEl.textContent = "Not Found";
+  heroEyeEl.textContent = "-";
+  heroHairEl.textContent = "-";
+  heroGenderEl.textContent = "-";
   return (elements.innerHTML = "");
 };
 
